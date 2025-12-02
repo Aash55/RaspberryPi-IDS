@@ -1,0 +1,23 @@
+# Python junk
+__pycache__/
+*.pyc
+
+# Virtual environment
+venv/
+env/
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Data files we must NOT upload
+*.pcap
+*.db
+*.log
+dataset/cicids2017*
+dataset/*.zip
+
+# Model training output
+*.joblib
+models/*
+!models/ids_rf.joblib
